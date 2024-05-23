@@ -9,7 +9,7 @@ const ScreenHeader = ({
     return (
         <header 
             style={{height: `${headerHeight}`}}
-            className="border border-solid"
+            className=""
         >
             {children}
         </header>

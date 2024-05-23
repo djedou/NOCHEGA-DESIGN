@@ -9,7 +9,7 @@ const ScreenFooter = ({
     return (
         <footer 
             style={{height: `${footerHeight}`}} 
-            className="border border-solid"
+            className=""
         >
             {children}
         </footer>

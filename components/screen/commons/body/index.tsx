@@ -7,7 +7,7 @@ const ScreenBody = ({
     children: React.ReactNode
 }) => {
     return (
-        <main style={{height: `${bodyHeight}`}} className="border border-solid">
+        <main style={{height: `${bodyHeight}`}} className="">
             {children}
         </main>
     )

@@ -1,8 +1,9 @@
+import SectionValeurs from "@/components/ui/section"
 
 const HomePageBody = ({}: {}) => {
     return (
         <div>
-            HomePageBody
+            <SectionValeurs/>
         </div>
     )
 }
