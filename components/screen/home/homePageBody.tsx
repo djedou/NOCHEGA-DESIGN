@@ -1,10 +1,11 @@
+import { Caroussel } from "../caroussel";
 
 const HomePageBody = ({}: {}) => {
-    return (
-        <div>
-            HomePageBody
-        </div>
-    )
-}
+  return (
+    <div>
+      <Caroussel />
+    </div>
+  );
+};
 
-export default HomePageBody
+export default HomePageBody;

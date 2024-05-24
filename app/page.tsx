@@ -11,9 +11,9 @@ export default function Home() {
     <ScreenLayout
         headerHeight = "70px"
         footerHeight = "160px"
-        headerComponent=<HomePageHeader/>
+        // headerComponent=<HomePageHeader/>
         bodyComponent=<HomePageBody/>
-        footerComponent=<HomePageFooter/>
+        // footerComponent=<HomePageFooter/>
     />
   );
 }
