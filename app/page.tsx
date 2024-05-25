@@ -9,8 +9,7 @@ import HomePageHeader from "@/components/screen/home/homePageHeader";
 export default function Home() {
   return (
     <ScreenLayout
-        headerHeight = "70px"
-        headerComponent=<HomePageHeader/>
+        //headerHeight = "70px"
         bodyComponent=<HomePageBody/>
     />
   );
