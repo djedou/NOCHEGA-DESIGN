@@ -16,33 +16,33 @@ export const Caroussel = () => {
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        <div className="embla__slide h-full">
+        <div className="embla__slide">
           <Image
             src={Kitchen}
             alt="kitchen"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-dvh object-cover object-center"
           />
         </div>
-        <div className="embla__slide h-full">
+        <div className="embla__slide">
           <Image
             src={Salon}
             alt="salon"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-dvh object-cover object-center"
           />
         </div>
 
-        <div className="embla__slide h-full">
+        <div className="embla__slide">
           <Image
             src={Montee}
             alt="montee"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-dvh object-cover object-center"
           />
         </div>
-        <div className="embla__slide h-full">
+        <div className="embla__slide">
           <Image
             src={Bain}
             alt="bain"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-dvh object-cover object-center"
           />
         </div>
       </div>
