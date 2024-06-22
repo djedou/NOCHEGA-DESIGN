@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+
+
 const SectionValeurs = ({}: {}) => {
     return (
-        <section className="bg-gray-100 h-dvh">
-            <div className="columns-1 md:columns-2">
+        <section className="bg-gray-100 px-8">
+            <div className="grid grid-cols-1 gap-1 md:grid-cols-2 md:gap-8">
                 <div className="flex flex-col items-center justify-center h-80 border-solid">
                     <article className="text-wrap px-4">
                         <Button 
